@@ -14,7 +14,7 @@ class Vehicle:
     def accelerate(self, amount):
         self.starting_speed += amount
         print(f"🚘 {self.model} accelerated by {amount} mph. New speed: {self.starting_speed} mph")
-        
+
 class ElectricVehicle(Vehicle):
     def __init__(self, make, model, battery_level= 100):
         super(). __init__(make, model)
